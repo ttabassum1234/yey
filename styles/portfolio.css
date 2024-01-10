@@ -1,0 +1,40 @@
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #b0a101;
+}
+.h-btn{
+    border: 0;/*hire me box er black boarder gese ga re tamu*/
+    border-radius: 5px;/*edi ar backgroud styles theke copy figma*/
+background: #b0a101;
+font-size: 20px;/*size,weight,color of hire me text*/
+font-weight: 700;
+color:white ;
+padding:18px 36px ;/*using this hire me box size increase */
+}
+/*nav related habijabi*/
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.name{
+    color: var(--Dark-01, #181818);
+font-weight: 800;
+line-height: normal;
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style:none;
+    margin-right:51px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
