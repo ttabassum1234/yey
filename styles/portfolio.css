@@ -84,10 +84,22 @@ nav a{
 .discription{
 
 }
+/*main section*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;/*eita diye about section er banner ta ke majhe ansi ar margin width diye full banner ta re choto banaisi ekta size e ansi*/
+}
 /*about section*/
 .about{
     padding: 130px;
     border-radius: 10px;
 background: #FFF8F3;
 margin:130px 0 ;
+}
+.about-full-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;e
 }
