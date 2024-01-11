@@ -14,6 +14,18 @@ font-weight: 700;
 color:white ;
 padding:18px 36px ;/*using this hire me box size increase */
 }
+.section-title{
+    color:#181818);
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section-description{
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
 /*nav related habijabi*/
 nav{
     display: flex;
@@ -41,12 +53,41 @@ nav a{
 }
 .header{
     background: #f9f7e3;
+    background-image:url('../images/header_bg.png');/*shudhu emne rakhle backgroud img repeat hocche so.backgroud img no repeat dibo*/
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding:30px 30px 30px 150px;
+    padding:30px 30px 0px 150px;/*top right bottom left*/
     display: flex;
     align-items: center;
+    justify-content: space-between;/*eita dewar por background img er majhe bilai aiya porse*/
+}
+.banner-contect{
+    max-width: 500px;
 }
 .banner .profile{
     width: 600px;
+}
+.greeting{
+    font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-heading{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top:5px ;
+    margin-bottom: 20px;
+}
+.discription{
+
+}
+/*about section*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+background: #FFF8F3;
+margin:130px 0 ;
 }
