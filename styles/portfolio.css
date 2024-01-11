@@ -19,6 +19,7 @@ nav{
     display: flex;
     justify-content:space-between ;
     align-items: center;
+    margin:0 200px;
 }
 .name{
     color: var(--Dark-01, #181818);
@@ -28,7 +29,7 @@ line-height: normal;
 }
 nav > ul{
     display: flex;
-    align-items: center;
+    align-items: center;/*ul and nav e ei jinish disi jate name,portfolio,hire me,contact same line e thake*/
 }
 nav li{
     list-style:none;
@@ -37,4 +38,15 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.header{
+    background: #f9f7e3;
+}
+.banner{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 600px;
 }
